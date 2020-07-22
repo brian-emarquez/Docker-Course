@@ -26,15 +26,13 @@ Un análisis en 2018 mostró las siguientes organizaciones como las principales 
 - Control de versiones de imágenes y capas
 - Restauración
 - Implementación rápida
-- 
 
-![python](./Images/Gui.PNG)
 
 ## ¿Hay limitaciones para el uso de Docker?
 
 En sí mismo, Docker es una excelente herramienta para la gestión de contenedores individuales. Al comenzar a utilizar cada vez más contenedores y aplicaciones en contenedores, divididas en cientos de piezas, la gestión y la organización se pueden tornar muy difíciles. Finalmente, debe retroceder y agrupar los contenedores para ofrecer servicios, como redes, seguridad, telemetría, etc., en todos sus contenedores. Es aquí donde aparece Kubernetes.
 
-![python](./images/docker1.jpg)
+![python](./images/docker1.png)
 
 
 
