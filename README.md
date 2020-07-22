@@ -3,78 +3,19 @@
 
 ![python](./images/docker.jpg)
 
-## ¿Que es Python? 💻
+## ¿Que es Docker? 
 
-Python es un lenguaje de programación interpretado cuya filosofía hace hincapié en la legibilidad de su código. Se trata de un lenguaje de programación multiparadigma, ya que soporta orientación a objetos, programación imperativa y, en menor medida, programación funcional. Es un lenguaje interpretado, dinámico y multiplataforma.
-
-Es administrado por la Python Software Foundation. Posee una licencia de código abierto, denominada Python Software Foundation License, que es compatible con la Licencia pública general de GNU a partir de la versión 2.1.1, e incompatible en ciertas versiones anteriores.
-- `C:\Python27\python.exe`: Ejecutar Aplicaciones en Windows.
-- `usr/bin/python`: Ejecutar Aplicaciones en Linux
-
-### Ejemplos
-```
->>> 2 + 3
-5
-```
-
-```
->>> 2 ** 3
-8
-```
-## Comandos 🧑‍💻
-
-_Verifica la versión de Python_
-
-```
-python --version
-```
-
-_Actualiza el  PIP de Python_
-
-```
-python -m pip install --upgrade pip
-```
-
-_Creacion de un .exe_
-
-```
-pip install pyinstaller
-```
-
-_Listado de Modulos instalados en Python_
-
-```
-pip list 
-```
-
-_Desinstalar Modulos_
-
-```
-pip uninstall nombreModulo
-```
-
-_Conectar Base de datos - SQL SERVER_
-
-```
-pip install pyodbc
-```
-
-_Conectar Base de datos - MariaDB_
-
-```
-pip3 install mariadb
-```
+Docker es un proyecto de código abierto que automatiza el despliegue de aplicaciones dentro de contenedores de software, proporcionando una capa adicional de abstracción y automatización de virtualización de aplicaciones en múltiples sistemas operativos. Docker utiliza características de aislamiento de recursos del kernel Linux, tales como cgroups y espacios de nombres (namespaces) para permitir que "contenedores" independientes se ejecuten dentro de una sola instancia de Linux, evitando la sobrecarga de iniciar y mantener máquinas virtuales.
 
 
-## Historia 📖
-Python fue creado a finales de los ochenta por Guido van Rossum en el Centro para las Matemáticas y la Informática (CWI, Centrum Wiskunde & Informatica), en los Países Bajos, como un sucesor del lenguaje de programación ABC, capaz de manejar excepciones e interactuar con el sistema operativo Amoeba.
+## Historia 
+Solomon Hykes comenzó Docker como un proyecto interno dentro dotCloud, empresa enfocado a una plataforma como un servicio (PaaS), con las contribuciones iniciales de otros ingenieros de dotCloud, incluyendo Andrea Luzzardi y Francois-Xavier Bourlet. Jeff Lindsay también participó como colaborador independiente. Docker representa una evolución de la tecnología patentada de dotCloud, que es a su vez construida sobre proyectos de código abierto anteriores como Cloudlets.
 
-El nombre del lenguaje proviene de la afición de su creador por los humoristas británicos Monty Python.
+Docker fue liberado como código abierto en marzo de 2013. El 13 de marzo de 2014, con el lanzamiento de la versión 0.9, Docker dejó de utilizar LXC como el entorno de ejecución por defecto y lo reemplazó con su propia biblioteca, libcontainer, escrito en Go. El 13 de abril de 2015, el proyecto tenía más de 20 700 estrellas de GitHub (haciéndolo uno de los proyectos con más estrellas de GitHub, en 20ª posición), más de 4 700 bifurcaciones (forks), y casi 900 colaboradores.
 
-Van Rossum es el principal autor de Python, y su continuo rol central en decidir la dirección de Python es reconocido, refiriéndose a él como Benevolente Dictador Vitalicio (en inglés: Benevolent Dictator for Life, BDFL); sin embargo el 12 de julio de 2018 declinó de dicha situación de honor sin dejar un sucesor o sucesora y con una declaración altisonante:
+Un análisis en 2018 mostró las siguientes organizaciones como las principales contribuyentes de Docker: Red Hat (mayores contribuyentes, aún más que el equipo de Docker en sí), el equipo de Docker, Microsoft, IBM, Google, Cisco Systems y Amadeus IT Group.34
 
-En 1991, van Rossum publicó el código de la versión 0.9.0 en alt.sources. En esta etapa del desarrollo ya estaban presentes clases con herencia, manejo de excepciones, funciones y los tipos modulares, como: str, list, dict, entre otros. Además en este lanzamiento inicial aparecía un sistema de módulos adoptado de Modula-3; van Rossum describe el módulo como «una de las mayores unidades de programación de Python». El modelo de excepciones en Python es parecido al de Modula-3, con la adición de una cláusula else. En el año 1994 se formó comp.lang.python, el foro de discusión principal de Python, marcando un hito en el crecimiento del grupo de usuarios de este lenguaje.
-[WIKIPEDIA](https://es.wikipedia.org/wiki/Python).<br>
+[WIKIPEDIA](https://es.wikipedia.org/wiki/Docker_(software)).<br>
 
 📦 [Install Python](https://www.python.org/) Instalador de Python.<br>
 📦 [Install Anaconda](https://www.anaconda.com/) Intalador de Anaconda.<br>
