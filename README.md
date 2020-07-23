@@ -17,8 +17,41 @@ Un análisis en 2018 mostró las siguientes organizaciones como las principales 
 
 📦 [Install Docker - Windows ](https://www.docker.com/products/docker-desktop) Instalador de Docker.<br>
 
+## Comandos
 
-
+```
+docker version
+```
+```
+docker -v
+```
+```
+docker info
+```
+```
+docker --help
+```
+```
+docker login
+```
+```
+docker images
+```
+```
+docker pull
+```
+```
+docker rmi
+```
+```
+docker ps-a
+```
+```
+docker images
+```
+```
+docker rm
+```
 
 ## Ventajas de los contenedores Docker
 
