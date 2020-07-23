@@ -17,7 +17,7 @@ Un análisis en 2018 mostró las siguientes organizaciones como las principales 
 
 📦 [Install Docker - Windows ](https://www.docker.com/products/docker-desktop) Instalador de Docker.<br>
 
-## Comandos
+## Principales Comandos
 
 ```
 docker version
