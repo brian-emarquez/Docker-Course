@@ -1,6 +1,24 @@
 
 <h2 align="center">Docker Course - Learn Docker &nbsp;:heart:&nbsp;</h2>
 
+<p align="center">
+  
+  <a href="https://github.com/BrianMarquez3/Docker-Course/tags">
+    <img src="https://img.shields.io/github/tag/BrianMarquez3/Python-Course.svg?label=version&style=flat" alt="Version">
+  </a>
+  <a href="https://github.com/BrianMarquez3/Docker-Course/stargazers">
+    <img src="https://img.shields.io/github/stars/BrianMarquez3/Python-Course.svg?style=flat" alt="Stars">
+  </a>
+  <a href="https://github.com/BrianMarquez3/Docker-Course/network">
+    <img src="https://img.shields.io/github/forks/BrianMarquez3/Python-Course.svg?style=flat" alt="Forks">
+  </a>
+   </a>
+   <a href="https://github.com/BrianMarquez3/Docker-Course/network">
+    <img src="https://img.shields.io/badge/Plataform-Windows-blue">
+  </a>
+  
+</p>
+
 ![python](./images/docker.jpg)
 
 ## ¿Que es Docker? 
