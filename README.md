@@ -1,5 +1,5 @@
 
-<h2 align="center">Docker Course - Learn Docker &nbsp;:heart:&nbsp;</h2>
+<h2 align="center">Docker Course - Learn Docker &nbsp;🐋&nbsp;</h2>
 
 <p align="center">
   
