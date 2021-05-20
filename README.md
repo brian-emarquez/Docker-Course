@@ -1,25 +1,45 @@
-
-<h2 align="center">Docker Course - Learn Docker 🐋</h2>
+<h2 align="center">  Java <img src="https://media3.giphy.com/media/LW3rWb97gvR0xVghDQ/giphy.gif" width="50px">  DOCKER | </h2>
+<!-- https://shields.io/ -->
 
 <p align="center">
   
-  <a href="https://github.com/BrianMarquez3/Docker-Course/tags">
-    <img src="https://img.shields.io/github/tag/BrianMarquez3/Python-Course.svg?label=version&style=flat" alt="Version">
+   </a>
+    <img src="https://img.shields.io/github/languages/top/BrianMarquez3/Docker-Course?color=blue">
   </a>
   <a href="https://github.com/BrianMarquez3/Docker-Course/stargazers">
-    <img src="https://img.shields.io/github/stars/BrianMarquez3/Python-Course.svg?style=flat" alt="Stars">
+    <img src="https://img.shields.io/github/stars/BrianMarquez3/Docker-Course.svg?style=flat" alt="Stars">
   </a>
   <a href="https://github.com/BrianMarquez3/Docker-Course/network">
-    <img src="https://img.shields.io/github/forks/BrianMarquez3/Python-Course.svg?style=flat" alt="Forks">
+    <img src="https://img.shields.io/github/forks/BrianMarquez3/Docker-Course.svg?style=flat" alt="Forks">
   </a>
+    <img src="https://img.shields.io/github/v/tag/BrianMarquez3/Docker-Course?color=gren&label=Version&logo=docker">
+  </a>
+  
+  </a>
+    <img src="https://img.shields.io/github/languages/code-size/BrianMarquez3/Docker-Course">
+  </a>
+  
+  </a>
+    <img src="https://img.shields.io/github/downloads/BrianMarquez3/Docker-Course/total?color=blue">
+  </a>
+  
    </a>
    <a href="https://github.com/BrianMarquez3/Docker-Course/network">
     <img src="https://img.shields.io/badge/Plataform-Windows-blue">
-  </a>
-  
-</p>
+  </a><br>
+ 
+  <img src="https://img.shields.io/github/last-commit/BrianMarquez3/Docker-Course?color=darkblue&style=for-the-badge">
+  <img src="https://img.shields.io/github/languages/count/BrianMarquez3/Docker-Course?style=for-the-badge">
+</P>
 
-![python](./images/docker.jpg)
+<table align="center" >
+  <tr>
+    <td align="center" style="padding=0;width=50%;">
+      <img align="center" style="padding=0;" src="./images/docker.jpg" />
+    </td>
+  </tr>
+</table>
+
 
 ## ¿Que es Docker? 
 
