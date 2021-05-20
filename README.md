@@ -1,5 +1,4 @@
-<h2 align="center">  Java <img src="https://media3.giphy.com/media/LW3rWb97gvR0xVghDQ/giphy.gif" width="50px">  DOCKER | </h2>
-<!-- https://shields.io/ -->
+<h2 align="center">  Learn Docker | Containers using Interactive Browser-Based Scenarios </h2>
 
 <p align="center">
   
