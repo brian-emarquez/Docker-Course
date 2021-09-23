@@ -66,39 +66,163 @@ Un análisis en 2018 mostró las siguientes organizaciones como las principales 
 
 ## Principales Comandos
 
+_DockerFiles_
+
+- Creador de imagenes
+
+
+_Descargar una imagen de postgre 9.6_
+
+```js
+docker run postgres:9.6
 ```
-docker version
+ 
+## Comandos Comunes
+
+_Permite correr un contenedor_
+
+```js
+docker run
 ```
-```
-docker -v
-```
-```
-docker info
-```
-```
-docker --help
-```
-```
-docker login
-```
-```
-docker images
-```
-```
+
+_Permite descargar imagen y no correr_
+
+```js
 docker pull
 ```
+
+_Permite ver la imagenes_
+
+```js
+docker images | head
 ```
-docker rmi
+
+_Suprimir el Sudo del principio_
+
+```js
+sudo usermod -aG docker ${USER}
 ```
+
+```js
+su - ${USER}
 ```
-docker ps-a
+
+_Permite ver los contenedores corriendo_
+
+```js
+docker ps
 ```
+
+_Permite ver los contenedores que corriendo hace un tiempo_
+
+```js
+docker ps -a
 ```
-docker images
+
+_Permite recuperar los datos de un contenedor_
+
+```js
+docker start ContainerID
 ```
+
+_Ver los Logs_
+
+```js
+docker log ContainerID
 ```
-docker rm
+
+_Eliminar Contenedor_
+
+```js
+docker rmi Idcontainer
 ```
+
+_Ejecutar comando en un Docker en funcionamiento_
+
+```js
+docker exec -it ContainerID sh
+- ls   
+```
+
+_Detener contenedor_
+
+```js
+docker stop ContainerID
+```
+
+
+_Ejecutar en Backbround_
+
+```js
+docker run -d nombre
+```
+
+ 
+## Comandos en casos de proyectos
+
+dentro de la careta donde se tien un proyecto!
+
+```js
+vim Dockerfile
+```
+
+_Ejemplo_
+
+```js
+FROM node:12.22.1-alpine3.11
+
+WORKDIR /app
+COPY . .
+RUN yarn install --production
+
+CMD ["node", "/app/src/index.js"]
+```
+
+
+## Docker Hub
+
+_Ejemplo_
+
+```js
+docker pull node
+```
+
+```js
+docker pull alpine
+```
+
+## Construccion del Contenedor
+
+```js
+docker build -t getting-started
+```
+
+## Ejecutar
+
+```js
+docker run -dp 3000:3000 getting-started
+```
+
+## Guardar un contenedor
+
+```js
+sudo docker run -d -v /home/brian/Documents/Docker/etc/etc:/etc/todos -p 3000:3000 getting-started
+```
+
+- Detener y volver a ejecutar, se guardaraon los cambios 
+- ir a [localhost:3000](http://localhost:3000)
+
+
+## Reconstruir Imagen Docker
+
+```js
+sudo docker run -d -v /home/brian/Documents/Docker/etc/etc:/etc/todos -p 3000:3000 getting-started
+```
+
+
+
+
+
 
 ## Ventajas de los contenedores Docker
 
