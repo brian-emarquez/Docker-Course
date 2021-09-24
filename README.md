@@ -64,6 +64,22 @@ Un análisis en 2018 mostró las siguientes organizaciones como las principales 
 </table>
 
 
+_Correcion del Error_
+
+- Download the latest package:
+https://docs.microsoft.com/en-us/windows/wsl/install-manual
+
+<table align="center" >
+  <tr>
+    <td align="center" style="padding=0;width=50%;">
+      <img align="center" style="padding=0;" src="./images/Solucion_Error.png" />
+    </td>
+  </tr>
+</table>
+
+If you're using an ARM64 machine, please download the ARM64 package instead. If you're not sure what kind of machine you have, open Command Prompt or PowerShell and enter: systeminfo | find "System Type". Caveat: On non-English Windows versions, you might have to modify the search text, for example, in German it would be systeminfo | find "Systemtyp".
+
+
 ## DockerHub
 
 <table align="center" >
