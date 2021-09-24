@@ -52,6 +52,28 @@ Docker fue liberado como código abierto en marzo de 2013. El 13 de marzo de 201
 
 Un análisis en 2018 mostró las siguientes organizaciones como las principales contribuyentes de Docker: Red Hat (mayores contribuyentes, aún más que el equipo de Docker en sí), el equipo de Docker, Microsoft, IBM, Google, Cisco Systems y Amadeus IT Group.34 [WIKIPEDIA](https://es.wikipedia.org/wiki/Docker_(software)).<br>
 
+
+## Error Docker 
+
+<table align="center" >
+  <tr>
+    <td align="center" style="padding=0;width=50%;">
+      <img align="center" style="padding=0;" src="./images/WSL.jpg" />
+    </td>
+  </tr>
+</table>
+
+
+## DockerHub
+
+<table align="center" >
+  <tr>
+    <td align="center" style="padding=0;width=50%;">
+      <img align="center" style="padding=0;" src="./images/DockerHub.png" />
+    </td>
+  </tr>
+</table>
+
 ## Descargar
 
 <table align="center" >
