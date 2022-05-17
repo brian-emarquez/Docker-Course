@@ -39,9 +39,10 @@
   </tr>
 </table>
 
-## Docker Linux
+## Docker Linux (Ubuntu)
 
-_Tutorial de Instalacion:_}
+_Tutorial de Instalacion:_
+
 Cómo instalar y usar Docker en Ubuntu 20.04 - [Docker en Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04-es)
 
 
