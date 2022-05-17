@@ -39,7 +39,15 @@
   </tr>
 </table>
 
+## Docker Linux
 
+_Tutorial de Instalacion:_}
+Cómo instalar y usar Docker en Ubuntu 20.04 - [Docker en Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04-es)
+
+
+_Correcion de Error_
+
+System has not been booted with systemd as init system (PID 1). Can't operate - [Systemctl](https://askubuntu.com/questions/1379425/system-has-not-been-booted-with-systemd-as-init-system-pid-1-cant-operate)
 
 ## Error Docker 
 
