@@ -1,0 +1,2 @@
+fastapi==0.78.0 # FRAMEWORK
+uvicorn==0.17.6 # SERVIDOR
