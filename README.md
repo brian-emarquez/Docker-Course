@@ -87,10 +87,9 @@ If you're using an ARM64 machine, please download the ARM64 package instead. If 
   </tr>
 </table>
 
-* Ttutorial Docker
+* Tutorial Docker
 
 [Tutorial Docker ](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04-es) - Cómo instalar y usar Docker en Ubuntu 20.04
-
 
 
 ## Descargar
@@ -111,10 +110,9 @@ _DockerFiles_
 
 - Creador de imagenes
 
-
 _Descargar una imagen de postgre 9.6_
 
-```js
+```
 docker run postgres:9.6
 ```
  
@@ -122,94 +120,130 @@ docker run postgres:9.6
 
 _Permite correr un contenedor_
 
-```js
+```
 docker run
 ```
 
 _Permite descargar imagen y no correr_
 
-```js
+```
 docker pull
 ```
 
 _Permite ver la imagenes_
 
-```js
+```
 docker images | head
 ```
 
 _Suprimir el Sudo del principio_
 
-```js
+```
 sudo usermod -aG docker ${USER}
 ```
 
-```js
+```
 su - ${USER}
 ```
 
 _Permite ver los contenedores corriendo_
 
-```js
+```
 docker ps
 ```
 
 _Permite ver los contenedores que corriendo hace un tiempo_
 
-```js
+```
 docker ps -a
 ```
 
 _Permite recuperar los datos de un contenedor_
 
-```js
+```
 docker start ContainerID
 ```
 
 _Ver los Logs_
 
-```js
+```
 docker log ContainerID
 ```
 
 _Eliminar Contenedor_
 
-```js
+```
 docker rmi Idcontainer
 ```
 
 _Ejecutar comando en un Docker en funcionamiento_
 
-```js
+```
 docker exec -it ContainerID sh
 - ls   
 ```
 
 _Detener contenedor_
 
-```js
+```
 docker stop ContainerID
 ```
 
 
 _Ejecutar en Backbround_
 
-```js
+```
 docker run -d nombre
 ```
 
+_Contruir Imagen_
+
+```yaml
+docker build -t devrrior/docker-django .
+```
+
+_Correr Imagen_
+
+```yaml
+docker run -p 8000:8000 devrrior/docker-djando
+```
+
+_Correr sin log_
+
+```yaml
+docker run -d -v /home/briandb/docker-django/:/app -p 8000:8000 devrrior/docker-django
+```
+[5704613836e41711efa45f5e875257c6bae734e68b18668f022040d3fd8133e7]
+
+_Correr con Log_
+
+```yaml
+docker logs --follow 5704613836e41711efa45f5e875257c6bae734e68b18668f022040d3fd8133e7
+```
+
+_Entrar al contenedor_
+
+```yaml
+ docker exec -it 5704613836e41711efa45f5e875257c6bae734e68b18668f022040d3fd8133e7 /bin/sh
+```
+
+_Volumenes_
+
+```yaml
+docker run -v /home/briandb/docker-django/:/app -p 8000:8000 devrrior/docker-django
+```
  
 ## Comandos en casos de proyectos
 
 dentro de la careta donde se tien un proyecto!
 
-```js
+```
 vim Dockerfile
 ```
 
 _Ejemplo_
 
-```js
+```
 FROM node:12.22.1-alpine3.11
 
 WORKDIR /app
@@ -224,29 +258,29 @@ CMD ["node", "/app/src/index.js"]
 
 _Ejemplo_
 
-```js
+```
 docker pull node
 ```
 
-```js
+```
 docker pull alpine
 ```
 
 ## Construccion del Contenedor
 
-```js
+```
 docker build -t getting-started
 ```
 
 ## Ejecutar
 
-```js
+```
 docker run -dp 3000:3000 getting-started
 ```
 
 ## Guardar un contenedor
 
-```js
+```
 sudo docker run -d -v /home/brian/Documents/Docker/etc/etc:/etc/todos -p 3000:3000 getting-started
 ```
 
@@ -261,17 +295,6 @@ sudo docker run -d -v /home/brian/Documents/Docker/etc/etc:/etc/todos -p 3000:30
 ```
 
 
-
-
-
-
-## Ventajas de los contenedores Docker
-
-- Modularidad
-- Control de versiones de imágenes y capas
-- Restauración
-- Implementación rápida
-
 ## Spotify 
 
 🎵 Music [List on Spotify 🎤](https://open.spotify.com/playlist/1UMfu4axebdOMeM996K0xP?si=A-pW9orFSRegxZBWoMZp4w)
@@ -280,11 +303,6 @@ sudo docker run -d -v /home/brian/Documents/Docker/etc/etc:/etc/todos -p 3000:30
 
 🩸 Hacer una donación [PAYPAL](https://www.paypal.com/donate?hosted_button_id=98U3T62494H9Y) 🍵
 
----
-
-## Hay limitaciones para el uso de Docker
-
-En sí mismo, Docker es una excelente herramienta para la gestión de contenedores individuales. Al comenzar a utilizar cada vez más contenedores y aplicaciones en contenedores, divididas en cientos de piezas, la gestión y la organización se pueden tornar muy difíciles. Finalmente, debe retroceder y agrupar los contenedores para ofrecer servicios, como redes, seguridad, telemetría, etc., en todos sus contenedores. Es aquí donde aparece Kubernetes.
 
 ---
 
@@ -303,9 +321,3 @@ En sí mismo, Docker es una excelente herramienta para la gestión de contenedor
         <td>G</td>
     </tr>
 </table>
-
-
-
-
-
-
