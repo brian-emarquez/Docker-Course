@@ -104,7 +104,8 @@ If you're using an ARM64 machine, please download the ARM64 package instead. If 
 
 📦 [Install Docker - Windows ](https://www.docker.com/products/docker-desktop) Accelerate how you build, share and run modern applications.<br>
 
-## Principales Comandos
+## Images Docker
+
 
 _DockerFiles_
 
@@ -117,6 +118,17 @@ docker run postgres:9.6
 ```
  
 ## Comandos Comunes
+
+_Version de Docker_
+
+```
+docker --version
+```
+_Version de Docker compose_
+
+```
+docker-compose --version
+```
 
 _Permite correr un contenedor_
 
@@ -302,7 +314,6 @@ sudo docker run -d -v /home/brian/Documents/Docker/etc/etc:/etc/todos -p 3000:30
 ## Paypal Donation
 
 🩸 Hacer una donación [PAYPAL](https://www.paypal.com/donate?hosted_button_id=98U3T62494H9Y) 🍵
-
 
 ---
 
