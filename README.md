@@ -34,7 +34,7 @@
 <table align="center" >
   <tr>
     <td align="center" style="padding=0;width=50%;">
-      <img align="center" style="padding=0;" src="./images/docker-image.jpg" />
+      <img align="center" style="padding=0;" src="./images/docker001.webp" />
     </td>
   </tr>
 </table>
