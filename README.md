@@ -2,14 +2,18 @@
 
 <p align="center">
   
-   </a>
+  </a>
     <img src="https://img.shields.io/github/languages/top/BrianMarquez3/Docker-Course?color=blue">
   </a>
+
   <a href="https://github.com/BrianMarquez3/Docker-Course/stargazers">
     <img src="https://img.shields.io/github/stars/BrianMarquez3/Docker-Course.svg?style=flat" alt="Stars">
   </a>
+
   <a href="https://github.com/BrianMarquez3/Docker-Course/network">
     <img src="https://img.shields.io/github/forks/BrianMarquez3/Docker-Course.svg?style=flat" alt="Forks">
+  </a>
+
   </a>
     <img src="https://img.shields.io/github/v/tag/BrianMarquez3/Docker-Course?color=gren&label=Version&logo=docker">
   </a>
@@ -29,7 +33,7 @@
  
   <img src="https://img.shields.io/github/last-commit/BrianMarquez3/Docker-Course?color=darkblue&style=for-the-badge">
   <img src="https://img.shields.io/github/languages/count/BrianMarquez3/Docker-Course?style=for-the-badge">
-</P>
+</p>
 
 <table align="center" >
   <tr>
@@ -39,18 +43,19 @@
   </tr>
 </table>
 
-## Docker Linux (Ubuntu)
+## Install
 
-_Tutorial de Instalacion:_
+<table align="center" >
+  <tr>
+    <td align="center" style="padding=0;width=50%;">
+      <img align="center" style="padding=0;" src="./images/DockerDescargar.png" />
+    </td>
+  </tr>
+</table>
 
-Cómo instalar y usar Docker en Ubuntu 20.04 - [Docker en Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04-es)
-
-
-_Correcion de Error_
-
-System has not been booted with systemd as init system (PID 1). Can't operate - [Systemctl](https://askubuntu.com/questions/1379425/system-has-not-been-booted-with-systemd-as-init-system-pid-1-cant-operate)
-
-## Error Docker 
+📦 [Install Docker en Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04-es)
+📦 [Install Docker - Windows ](https://www.docker.com/products/docker-desktop) Accelerate how you build, share and run modern applications.<br>
+📦 [Install Docker Compose ](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04) Accelerate how you build, share and run modern applications.<br>
 
 <table align="center" >
   <tr>
@@ -60,8 +65,10 @@ System has not been booted with systemd as init system (PID 1). Can't operate - 
   </tr>
 </table>
 
+System has not been booted with systemd as init system (PID 1). Can't operate - [Systemctl](https://askubuntu.com/questions/1379425/system-has-not-been-booted-with-systemd-as-init-system-pid-1-cant-operate)
 
-_Correcion del Error_
+
+## Correcion del Error
 
 - Download the latest package:
 https://docs.microsoft.com/en-us/windows/wsl/install-manual
@@ -76,7 +83,6 @@ https://docs.microsoft.com/en-us/windows/wsl/install-manual
 
 If you're using an ARM64 machine, please download the ARM64 package instead. If you're not sure what kind of machine you have, open Command Prompt or PowerShell and enter: systeminfo | find "System Type". Caveat: On non-English Windows versions, you might have to modify the search text, for example, in German it would be systeminfo | find "Systemtyp".
 
-
 ## DockerHub
 
 <table align="center" >
@@ -90,19 +96,6 @@ If you're using an ARM64 machine, please download the ARM64 package instead. If 
 * Tutorial Docker
 
 [Tutorial Docker ](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04-es) - Cómo instalar y usar Docker en Ubuntu 20.04
-
-
-## Descargar
-
-<table align="center" >
-  <tr>
-    <td align="center" style="padding=0;width=50%;">
-      <img align="center" style="padding=0;" src="./images/DockerDescargar.png" />
-    </td>
-  </tr>
-</table>
-
-📦 [Install Docker - Windows ](https://www.docker.com/products/docker-desktop) Accelerate how you build, share and run modern applications.<br>
 
 ## Images Docker
 
