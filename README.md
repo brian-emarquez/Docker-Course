@@ -45,17 +45,13 @@
 
 ## Install
 
-<table align="center" >
-  <tr>
-    <td align="center" style="padding=0;width=50%;">
-      <img align="center" style="padding=0;" src="./images/DockerDescargar.png" />
-    </td>
-  </tr>
-</table>
 
-📦 [Install Docker en Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04-es)
+📦 [Install Docker en Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04-es) Develop faster.
+Run anywhere. <br> 
 📦 [Install Docker - Windows ](https://www.docker.com/products/docker-desktop) Accelerate how you build, share and run modern applications.<br>
 📦 [Install Docker Compose ](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04) Accelerate how you build, share and run modern applications.<br>
+
+## Correcion del Error - Instalaccion
 
 <table align="center" >
   <tr>
@@ -66,9 +62,6 @@
 </table>
 
 System has not been booted with systemd as init system (PID 1). Can't operate - [Systemctl](https://askubuntu.com/questions/1379425/system-has-not-been-booted-with-systemd-as-init-system-pid-1-cant-operate)
-
-
-## Correcion del Error
 
 - Download the latest package:
 https://docs.microsoft.com/en-us/windows/wsl/install-manual
