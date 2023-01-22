@@ -48,7 +48,7 @@
 
 📦 [Install Docker en Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04-es) Develop faster.
 Run anywhere. <br> 
-📦 [Install Docker - Windows ](https://www.docker.com/products/docker-desktop) Accelerate how you build, share and run modern applications.<br>
+📦 [Install Docker en Windows ](https://www.docker.com/products/docker-desktop) Accelerate how you build, share and run modern applications.<br>
 📦 [Install Docker Compose ](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04) Accelerate how you build, share and run modern applications.<br>
 
 ## Correcion del Error - Instalaccion
