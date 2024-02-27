@@ -61,7 +61,7 @@ service docker start
 service docker status
 ```
 
-H```bash
+```bash
 service docker stop
 ```
 
@@ -90,9 +90,10 @@ https://docs.microsoft.com/en-us/windows/wsl/install-manual
 
 If you're using an ARM64 machine, please download the ARM64 package instead. If you're not sure what kind of machine you have, open Command Prompt or PowerShell and enter: systeminfo | find "System Type". Caveat: On non-English Windows versions, you might have to modify the search text, for example, in German it would be systeminfo | find "Systemtyp".
 
-```bash
-wsl --set-default-version 1
-```
+**Fix: Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?**
+
+[Fix: Cannot connect to the Docker daemon](fix-cannot-connect-to-the-docker-daemon-at-unix-var-run-docker-sock-is-the-docker-daemon-running-wsl-windows-subsystem-for-linux-wsl2-iptables/)
+
 
 ## DockerHub
 
