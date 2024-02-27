@@ -54,15 +54,15 @@ Run anywhere. <br>
 **Inicializar Docker Ubuntu**
 
 ```bash
- service docker start
+service docker start
 ```
 
 ```bash
- service docker status
+service docker status
 ```
 
- ```bash
- service docker stop
+H```bash
+service docker stop
 ```
 
 ## Correcion del Error - Instalaccion
